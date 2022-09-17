@@ -1,0 +1,237 @@
+@media screen and (max-width: 550px) {
+  header .list {
+    display: none;
+  }
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  header div:nth-child(3) {
+    display: block;
+    color: #FFFFFF;
+    font-size: 25px;
+  }
+  header button {
+    display: none;
+  }
+  header img {
+    height: 40px;
+  }
+  header {
+    height: 13vh;
+    padding: 0px 25px;
+  }
+  .main-section {
+    flex-direction: column;
+    padding: 10px 20px;
+    row-gap: 20px;
+  }
+  .main-section-img img {
+    height: 250px;
+    width: 300px;
+  }
+  .main-section-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-section-content {
+    align-items: center;
+  }
+  .main-section-content h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .main-section-content p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .main-section-content form input {
+    width: 170px;
+    padding: 14px 40px;
+    padding-right: 120px;
+    font-size: 15px;
+  }
+  .main-section-content form button {
+    top: 5px;
+    right: 5px;
+  }
+  form i {
+    top: 13px;
+  }
+  input::placeholder {
+    font-size: 15px;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-section-content h1,
+  p,
+  form {
+    padding-bottom: 15px;
+  }
+  .project {
+    padding: 40px 20px;
+  }
+  .project h2 {
+    font-size: 25px;
+  }
+  .project-list {
+    flex-direction: column;
+    padding: 2vh 0px;
+  }
+  .project-list li ul {
+    padding: 13px 0px;
+  }
+  .project-img img {
+    height: 30vh;
+    width: 70vw;
+  }
+  .project-list li ul li:first-child {
+    font-size: 25px;
+  }
+  .project-list li ul li:last-child {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .care {
+    padding: 0px 20px;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .design,
+  .judge,
+  .strategies {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    column-gap: 0px;
+    row-gap: 20px;
+  }
+  .strategies {
+    padding: 70px 20px;
+  }
+  .design-image,
+  .judge-image,
+  .strategies-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .design-image img,
+  .strategies-image img,
+  .judge-image img {
+    height: 40vh;
+    width: 70vw;
+  }
+  .strategies-content > .t-btn,
+  .design-content > .t-btn,
+  .judge-content > .t-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .design-content h1,
+  .strategies-content h1,
+  .judge-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .design-content p,
+  .strategies-content p,
+  .judge-content p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 10px;
+  }
+  .teams-content {
+    flex-direction: column;
+    padding-top: 80px;
+  }
+  .teams-content h4 {
+    padding: 0px 20px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+  }
+  .teams-content p {
+    font-size: 16px;
+    padding: 0px 20px;
+    text-align: justify;
+  }
+  .project-mbrs {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .project-mbrs li ul li img {
+    height: 40vh;
+    width: 55vw;
+  }
+  .project-mbrs li ul li:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-mbrs li ul {
+    padding: 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .project-mbrs li ul li {
+    padding: 4px;
+  }
+  .project-mbrs li ul li:last-child {
+    text-align: center;
+    line-height: 23px;
+  }
+  .project-mbrs li ul li:nth-child(2) {
+    text-align: center;
+  }
+  .see-btn {
+    padding-top: 0px;
+  }
+  .icons {
+    padding: 15px 20px;
+  }
+  .media-icons div {
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+    margin-left: 6px;
+  }
+  .icons img {
+    height: 30px;
+  }
+  .fa-instagram,
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-github {
+    font-size: 15px;
+  }
+  .links {
+    padding: 30px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 45px;
+  }
+  .item-one {
+    font-size: 18px;
+  }
+  footer li {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .line {
+    margin: 0px;
+  }
+}
